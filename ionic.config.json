@@ -1,0 +1,7 @@
+{
+  "name": "SketetonAPP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

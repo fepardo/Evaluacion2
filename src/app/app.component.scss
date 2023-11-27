@@ -1,0 +1,18 @@
+/* Estilos iniciales */
+.elemento {
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    transition: transform 0.5s; /* Transición para animar cambios en la propiedad 'transform' */
+  }
+  
+  /* Efecto de transformación cuando se pasa el cursor */
+  .elemento:active {
+    transform: scale(1.5); /* Mueve el botón hacia abajo 3 pixeles */
+  }
+
+
+
+  .elemento:active {
+    background-color: #007bff; /* Nuevo color de fondo cuando se hace clic */
+  }

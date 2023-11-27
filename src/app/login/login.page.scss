@@ -1,0 +1,43 @@
+.titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em; 
+    color: #35b3fd; 
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .color-change {
+    animation: colorChange 1.5s infinite; /* Aplica la animación */
+  }
+
+
+  .boton {
+    padding: 10px 20px;
+    background-color: #fff; /* Color de fondo original */
+    color: #fff; /* Color del texto */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones animadas para cambio de color y transformación */
+  }
+  
+  /* Efecto de movimiento cuando se hace clic */
+  .boton:active {
+    transform: translateY(10px); /* Mueve el botón hacia abajo 3 pixeles */
+  }
+  
+  /* Cambio de color cuando se hace clic */
+  .boton:active {
+    background-color: #fff; /* Nuevo color de fondo cuando se hace clic */
+  }

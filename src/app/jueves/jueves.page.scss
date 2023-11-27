@@ -1,0 +1,30 @@
+.c.Estilo-caja {
+    margin-top: 20px; /* Ajusta el valor según lo que necesites */
+  }
+
+
+.fondo{
+  background:  rgb(236 251 255)!important; /* Rojo semi-transparente */
+  height: 100%;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #fff; /* Color de fondo original */
+  color: #fff; /* Color del texto */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Transiciones animadas para cambio de color y transformación */
+}
+
+/* Efecto de movimiento cuando se hace clic */
+.boton:active {
+  transform: translateY(10px); /* Mueve el botón hacia abajo 3 pixeles */
+}
+
+/* Cambio de color cuando se hace clic */
+.boton:active {
+  background-color: #fff; /* Nuevo color de fondo cuando se hace clic */
+}
+
+

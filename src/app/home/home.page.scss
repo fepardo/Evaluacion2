@@ -1,0 +1,58 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.titulo {
+  font-family: 'Pacifico', cursive;
+  font-size: 150%; 
+  color: #35b3fd; 
+}
+
+
+// ion-content {
+//   --background: url('../../assets/icon/puntos.png') no-repeat center center fixed;
+//   background-size: auto;
+//   opacity: 0.9; /* Añade esta línea para establecer la opacidad al 50% */
+// }
+
+
+.homeIMG {
+  opacity: 0.1;
+  width: 100%; /* Ajusta el tamaño según tus necesidades */
+  height: auto; /* Esto permite que la altura se ajuste automáticamente según el ancho */
+  position: absolute;
+  bottom: 0;
+}
+.contenedor {
+  position: relative;
+}
+
+
+
+.mi-clase-h3 {
+  margin-top: 10px; /* Ajusta el valor según tus necesidades */
+}
